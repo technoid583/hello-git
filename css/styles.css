@@ -27,3 +27,15 @@ p {
     font-size: 1.2em;
     line-height: 1.6;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+    gap: 15px;
+}
+.logo img {
+    display: block;
+    width: 50px;
+}
