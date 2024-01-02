@@ -1,4 +1,4 @@
-# Hello, Git
+# Hello, Git!
 
 This is my [*first project on GitHub](https://github.com/technoid583/git-test-repo). I'm learning Git and creating my 'hello git' web page.
 
