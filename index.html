@@ -6,6 +6,10 @@
     <title>Hello, Git!</title>
     <!-- custom css styles -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- highlight.js styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <!-- highlight.js script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -13,6 +17,47 @@
             <img src="img/github-logo.svg" alt="github-logo"> Hello, Git
         </div>
         <p>This is my *first project on GitHub. I'm learning Git and creating my "hello git" web page.</p>
+
+        <pre><code class="language-bash code-block">
+git init
+
+git add . or git add [file_name]
+git status
+
+git commit -m "message"
+
+git log
+git log --oneline
+
+git checkout [commit id] - go back to the commit (read only)
+git revert [commit id] - duplicate the selected commit and put it top of all
+git reset [commit id] - deletes/eareses the code till, the checkpoint
+
+git branch [branch name]
+git branch -a
+git checkout [branch name]
+git branch -D [branch name]
+
+git checkout -b [branch name] - creates a new branch and goes into it
+
+
+git merge [branch name]
+
+
+shift + : + "wq"
+    - exit code when it causes a conflict
+
+git push [repo name/link] [branch name]
+git remote add origin [repo name]
+git push origin [branch name]
+
+git clone [repo name]
+
+git pull [repo name] [branch name]
+git pull origin master
+        </code></pre>
     </div>
+
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
